@@ -1,4 +1,4 @@
-<!DOCTYPE html>  <div class="cover-logo">PasseGo</div>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
@@ -28,11 +28,9 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-
 .stagger.visible>*:nth-child(4){opacity:1;transform:none;transition-delay:.26s;}
 .stagger.visible>*:nth-child(5){opacity:1;transform:none;transition-delay:.33s;}
 .stagger.visible>*:nth-child(6){opacity:1;transform:none;transition-delay:.40s;}
-.stagger.visible>*:nth-child(7){opacity:1;transform:none;transition-delay:.47s;}
 #progress{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--accent),var(--accent3));z-index:300;transition:width .1s;}
 nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;background:rgba(255,255,255,.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);}
 .nav-logo{font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--accent);}
-.nav-badge{font-size:10px;font-weight:700;background:var(--blue-bg);border:1px solid var(--blue-border);color:var(--accent);padding:4px 10px;border-radius:100px;}
 .nav-menu-btn{display:none;background:none;border:none;cursor:pointer;padding:6px;}
 .nav-menu-btn span{display:block;width:20px;height:2px;background:var(--text);margin:4px 0;border-radius:2px;}
 .mobile-menu{display:none;position:fixed;top:52px;left:0;right:0;background:#fff;border-bottom:1px solid var(--border);z-index:190;padding:12px 0;box-shadow:0 8px 24px rgba(0,0,0,.08);}
@@ -94,7 +92,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:12px 20px;display:fl
 .account-card.green{background:rgba(16,185,129,.05);border-color:rgba(16,185,129,.25);}
 .account-card.blue{background:rgba(59,130,246,.05);border-color:rgba(59,130,246,.25);}
 .account-card.purple{background:rgba(139,92,246,.05);border-color:rgba(139,92,246,.25);}
-.account-card.yellow{background:rgba(245,158,11,.05);border-color:rgba(245,158,11,.25);}
 .account-card.slate{background:rgba(100,116,139,.05);border-color:rgba(100,116,139,.25);}
 .account-header{display:flex;align-items:center;gap:12px;margin-bottom:16px;}
 .account-emoji{font-size:28px;}
@@ -102,7 +99,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:12px 20px;display:fl
 .account-card.green .account-name{color:#059669;}
 .account-card.blue .account-name{color:#2563eb;}
 .account-card.purple .account-name{color:#7c3aed;}
-.account-card.yellow .account-name{color:#d97706;}
 .account-card.slate .account-name{color:#475569;}
 .account-subtitle{font-size:12px;color:var(--text2);}
 .stat-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:16px;}
@@ -161,7 +157,6 @@ a.toc-item:hover{border-color:rgba(59,130,246,.4);box-shadow:0 6px 20px rgba(59,
 .toc-num{font-size:10px;font-weight:800;color:var(--accent);background:var(--blue-bg);border:1px solid var(--blue-border);border-radius:7px;padding:3px 8px;flex-shrink:0;}
 .toc-text strong{display:block;font-size:12px;color:var(--text);margin-bottom:1px;}
 .toc-text span{font-size:11px;color:var(--text2);}
-/* QUIZ */
 .quiz-box{background:var(--bg);border:2px solid var(--blue-border);border-radius:18px;padding:24px;margin:24px 0;}
 .quiz-title{font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--accent);margin-bottom:6px;}
 .quiz-question{font-size:15px;font-weight:700;color:var(--text);margin-bottom:18px;line-height:1.5;}
@@ -185,7 +180,6 @@ a.toc-item:hover{border-color:rgba(59,130,246,.4);box-shadow:0 6px 20px rgba(59,
 .qdot{width:8px;height:8px;border-radius:50%;background:var(--border);}
 .qdot.done{background:var(--accent);}
 .qdot.cur{background:var(--accent2);transform:scale(1.3);}
-/* CALC */
 .calc-box{background:var(--bg);border:2px solid var(--blue-border);border-radius:18px;padding:24px;margin:24px 0;}
 .calc-title{font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--accent);margin-bottom:4px;}
 .calc-subtitle{font-size:13px;color:var(--text2);margin-bottom:20px;}
@@ -202,11 +196,7 @@ a.toc-item:hover{border-color:rgba(59,130,246,.4);box-shadow:0 6px 20px rgba(59,
 .bar-lbl{font-size:11px;color:var(--text2);margin-bottom:4px;display:flex;justify-content:space-between;}
 .bar{height:8px;border-radius:100px;background:var(--bg3);overflow:hidden;margin-bottom:8px;}
 .bar-fill{height:100%;border-radius:100px;transition:width .5s ease;}
-.reee-box{background:var(--bg);border:2px solid rgba(245,158,11,.3);border-radius:18px;padding:24px;margin:24px 0;}
-.reee-box .calc-title{color:#d97706;}
-/* COMPARATEUR */
 .comp-box{background:var(--bg);border:2px solid var(--blue-border);border-radius:18px;padding:24px;margin:24px 0;}
-.comp-box .calc-title{margin-bottom:4px;}
 .comp-q{margin-bottom:14px;}
 .comp-q label{font-size:12px;font-weight:600;color:var(--text);display:block;margin-bottom:6px;}
 .comp-q select{width:100%;padding:10px 14px;border:1.5px solid var(--border);border-radius:10px;font-size:13px;font-family:inherit;background:var(--bg3);color:var(--text);outline:none;}
@@ -218,7 +208,6 @@ a.toc-item:hover{border-color:rgba(59,130,246,.4);box-shadow:0 6px 20px rgba(59,
 .comp-result p{font-size:13px;color:var(--text2);}
 .comp-order{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;}
 .comp-pill{font-size:11px;font-weight:700;padding:5px 12px;border-radius:100px;border:1.5px solid;}
-/* FLIP */
 .flip-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:22px 0;}
 @media(min-width:500px){.flip-grid{grid-template-columns:repeat(3,1fr);}}
 .flip-card{height:120px;cursor:pointer;perspective:800px;}
@@ -230,7 +219,6 @@ a.toc-item:hover{border-color:rgba(59,130,246,.4);box-shadow:0 6px 20px rgba(59,
 .fe{font-size:26px;margin-bottom:6px;}
 .ft{font-size:11px;font-weight:700;color:var(--text);text-align:center;}
 .fd{font-size:10px;color:var(--text2);text-align:center;line-height:1.4;}
-/* SIM */
 .sim-diff{margin-top:12px;padding:12px 14px;background:rgba(16,185,129,.08);border:1px solid rgba(16,185,129,.3);border-radius:10px;text-align:center;}
 .sim-diff-lbl{font-size:11px;color:var(--text2);margin-bottom:4px;}
 .sim-diff-val{font-size:20px;font-weight:900;color:#059669;font-family:'Playfair Display',serif;}
@@ -241,13 +229,11 @@ a.toc-item:hover{border-color:rgba(59,130,246,.4);box-shadow:0 6px 20px rgba(59,
 <div id="progress"></div>
 
 <nav>
-  <div class="nav-logo">PasseGo · Types de compte</div>
+  <div class="nav-logo">PasseGo · Comptes d'investissement</div>
   <div class="nav-links">
     <a href="#s1">CELI</a><a href="#s2">REER</a><a href="#s3">CELIAPP</a>
-    <a href="#s4">REEE</a><a href="#s5">Non enr.</a>
-    <a href="#s6">Ordre</a><a href="#s7">Plateformes</a>
+    <a href="#s4">Non enr.</a><a href="#s5">Ordre</a><a href="#s6">Plateformes</a>
   </div>
-
   <button class="nav-menu-btn" id="menuBtn" aria-label="Menu">
     <span></span><span></span><span></span>
   </button>
@@ -256,22 +242,20 @@ a.toc-item:hover{border-color:rgba(59,130,246,.4);box-shadow:0 6px 20px rgba(59,
   <a href="#s1">💚 CELI</a>
   <a href="#s2">💰 REER</a>
   <a href="#s3">🏡 CELIAPP</a>
-  <a href="#s4">🎓 REEE</a>
-  <a href="#s5">💼 Non enregistré</a>
-  <a href="#s6">📊 Ordre de priorité</a>
-  <a href="#s7">🏦 Plateformes</a>
+  <a href="#s4">💼 Non enregistré</a>
+  <a href="#s5">📊 Ordre de priorité</a>
+  <a href="#s6">🏦 Plateformes</a>
 </div>
 
 <section class="cover">
   <div class="cover-bg"></div><div class="grid-bg"></div>
   <div class="orb orb1"></div><div class="orb orb2"></div>
   <div class="cover-badge"><span class="badge-dot"></span>Boîte à outils · Vol. 1</div>
-
   <h1>Où mettre<br>votre argent<br>d'abord</h1>
   <p class="cover-sub">Le guide complet des comptes d'investissement au Québec</p>
   <div class="cover-tags">
     <span class="cover-tag">CELI</span><span class="cover-tag">REER</span>
-    <span class="cover-tag">CELIAPP</span><span class="cover-tag">REEE</span>
+    <span class="cover-tag">CELIAPP</span><span class="cover-tag">Non enregistré</span>
     <span class="cover-tag">Wealthsimple vs Questrade</span>
   </div>
   <div class="cover-meta">21 FÉVRIER 2026 · PASSEGO</div>
@@ -286,10 +270,9 @@ a.toc-item:hover{border-color:rgba(59,130,246,.4);box-shadow:0 6px 20px rgba(59,
       <a href="#s1" class="toc-item"><span class="toc-num">01</span><div class="toc-text"><strong>Le CELI</strong><span>Le préféré des Québécois</span></div></a>
       <a href="#s2" class="toc-item"><span class="toc-num">02</span><div class="toc-text"><strong>Le REER</strong><span>Le report d'impôt stratégique</span></div></a>
       <a href="#s3" class="toc-item"><span class="toc-num">03</span><div class="toc-text"><strong>Le CELIAPP</strong><span>Le meilleur des deux mondes</span></div></a>
-      <a href="#s4" class="toc-item"><span class="toc-num">04</span><div class="toc-text"><strong>Le REEE</strong><span>30 % de rendement garanti</span></div></a>
-      <a href="#s5" class="toc-item"><span class="toc-num">05</span><div class="toc-text"><strong>Compte non enregistré</strong><span>Sans limites, sans protection</span></div></a>
-      <a href="#s6" class="toc-item"><span class="toc-num">06</span><div class="toc-text"><strong>Ordre de priorité</strong><span>Dans quel ordre remplir vos comptes</span></div></a>
-      <a href="#s7" class="toc-item"><span class="toc-num">07</span><div class="toc-text"><strong>Les plateformes</strong><span>Wealthsimple vs Questrade</span></div></a>
+      <a href="#s4" class="toc-item"><span class="toc-num">04</span><div class="toc-text"><strong>Compte non enregistré</strong><span>Sans limites, sans protection</span></div></a>
+      <a href="#s5" class="toc-item"><span class="toc-num">05</span><div class="toc-text"><strong>Ordre de priorité</strong><span>Dans quel ordre remplir vos comptes</span></div></a>
+      <a href="#s6" class="toc-item"><span class="toc-num">06</span><div class="toc-text"><strong>Les plateformes</strong><span>Wealthsimple vs Questrade</span></div></a>
       <a href="#jeux" class="toc-item" style="border-color:rgba(16,185,129,.3);background:rgba(16,185,129,.03);">
         <span class="toc-num" style="background:rgba(16,185,129,.1);border-color:rgba(16,185,129,.3);color:#059669;">🎮</span>
         <div class="toc-text"><strong style="color:#059669;">Quiz et jeux interactifs</strong><span>Testez vos connaissances</span></div>
@@ -342,7 +325,6 @@ a.toc-item:hover{border-color:rgba(59,130,246,.4);box-shadow:0 6px 20px rgba(59,
     </div>
     <div class="warn reveal"><div class="label">⚠️ Attention</div><p>Retrait en 2026 → droits redonnés le 1er janvier 2027 seulement. Dépasser votre plafond = <strong>pénalité de 1 % par mois.</strong></p></div>
     <div class="tip reveal"><div class="label">✅ Idéal pour</div><p>Tout le monde. Particulièrement les jeunes investisseurs avec un long horizon et ceux qui veulent la <strong>flexibilité totale</strong> sur les retraits.</p></div>
-    <!-- Calculateur CELI -->
     <div class="calc-box reveal">
       <div class="calc-title">🧮 Calculateur CELI</div>
       <div class="calc-subtitle">Estimez la croissance de votre CELI sur 20 ans</div>
@@ -434,62 +416,11 @@ a.toc-item:hover{border-color:rgba(59,130,246,.4);box-shadow:0 6px 20px rgba(59,
   </div>
 </section>
 
-<!-- REEE -->
+<!-- Non enregistré -->
 <section id="s4" class="content-section scroll-target">
   <div class="inner">
     <div class="section-header">
       <div class="section-num reveal">04</div>
-      <div class="section-head-text reveal">
-        <div class="section-label">Épargne-études</div>
-        <h2>Le REEE</h2>
-        <div class="en">Registered Education Savings Plan (RESP)</div>
-      </div>
-    </div>
-    <p class="reveal" style="color:var(--text2);font-size:14px;margin-bottom:24px;line-height:1.8;">Le REEE vous permet d'épargner pour les études postsecondaires de vos enfants, avec un bonus spectaculaire : le gouvernement fédéral ajoute <strong style="color:var(--text)">20 %</strong> de vos cotisations annuelles via la Subvention canadienne pour l'épargne-études (SCEE), jusqu'à 500 $ par année par enfant. Le Québec ajoute un <strong style="color:var(--text)">10 % supplémentaire</strong> via l'IQEE, jusqu'à 250 $ par année. C'est un rendement garanti de <strong style="color:var(--text)">30 %</strong> sur vos 2 500 premiers dollars cotisés chaque année. Aucun placement au monde ne vous offre ça.</p>
-    <div class="account-card yellow reveal">
-      <div class="account-header">
-        <div class="account-emoji">🎓</div>
-        <div><div class="account-name">REEE</div><div class="account-subtitle">30 % de rendement garanti — imbattable</div></div>
-      </div>
-      <div class="stat-grid">
-        <div class="stat"><div class="stat-val">50 000 $</div><div class="stat-lbl">Plafond à vie / enfant</div></div>
-        <div class="stat"><div class="stat-val">500 $</div><div class="stat-lbl">SCEE fédérale / an</div></div>
-        <div class="stat"><div class="stat-val">250 $</div><div class="stat-lbl">IQEE Québec / an</div></div>
-        <div class="stat"><div class="stat-val">30 %*</div><div class="stat-lbl">Rendement garanti</div></div>
-      </div>
-      <div class="analogy-box">
-        <div class="analogy-label">🐷 L'analogie</div>
-        <p>Imaginez que chaque fois que vous mettez 100 $ dans une tirelire pour votre enfant, quelqu'un vient ajouter 30 $ de sa poche. C'est exactement ce que font Ottawa et Québec avec le REEE. Les gains croissent à l'abri de l'impôt, et quand votre enfant retire pour ses études, c'est imposé dans <strong>SES mains</strong> — à son taux (généralement très bas puisqu'il est étudiant).</p>
-      </div>
-    </div>
-    <p class="reveal" style="font-size:11px;color:var(--muted);margin:-8px 0 16px;">*Le 30 % s'applique sur les premiers 2 500 $ de cotisation annuelle. Au-delà, vous ne recevez plus la subvention mais les gains restent à l'abri de l'impôt.</p>
-    <!-- Calculateur REEE -->
-    <div class="reee-box reveal">
-      <div class="calc-title">🧮 Calculateur REEE</div>
-      <div class="calc-subtitle">Voyez l'impact des subventions gouvernementales</div>
-      <div class="calc-row">
-        <label>Cotisation annuelle : <span class="cval" id="reeeContVal">2 500 $</span></label>
-        <input type="range" min="500" max="5000" step="500" value="2500" id="reeeConts">
-      </div>
-      <div class="calc-row">
-        <label>Nombre d'années : <span class="cval" id="reeeYrsVal">15</span></label>
-        <input type="range" min="5" max="18" step="1" value="15" id="reeeYrs">
-      </div>
-      <div class="calc-result">
-        <div class="rg">
-          <div class="ri"><div class="rv" id="reeeTotal">—</div><div class="rl">Valeur totale</div></div>
-          <div class="ri"><div class="rv" id="reeeSubv">—</div><div class="rl">Subventions reçues</div></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Non enregistré -->
-<section id="s5" class="content-section scroll-target">
-  <div class="inner">
-    <div class="section-header">
-      <div class="section-num reveal">05</div>
       <div class="section-head-text reveal">
         <div class="section-label">Compte de courtage régulier</div>
         <h2>Compte non enregistré</h2>
@@ -514,10 +445,10 @@ a.toc-item:hover{border-color:rgba(59,130,246,.4);box-shadow:0 6px 20px rgba(59,
 </section>
 
 <!-- ORDRE -->
-<section id="s6" class="content-section scroll-target">
+<section id="s5" class="content-section scroll-target">
   <div class="inner">
     <div class="section-header">
-      <div class="section-num reveal">06</div>
+      <div class="section-num reveal">05</div>
       <div class="section-head-text reveal">
         <div class="section-label">La question à un million de dollars</div>
         <h2>L'ordre de priorité</h2>
@@ -528,11 +459,9 @@ a.toc-item:hover{border-color:rgba(59,130,246,.4);box-shadow:0 6px 20px rgba(59,
       <div class="order-step"><div class="order-step-num" style="background:linear-gradient(135deg,#7c3aed,#8b5cf6);">1</div><div class="order-step-content"><h3>CELIAPP — Si admissible</h3><p>Double avantage fiscal. <strong>8 000 $/an</strong>, mathématiquement imbattable.</p></div></div>
       <div class="order-step"><div class="order-step-num" style="background:linear-gradient(135deg,#059669,#10b981);">2</div><div class="order-step-content"><h3>CELI — Pour la majorité</h3><p>Libre d'impôt, flexible. Si revenu &lt; ~55 000 $, passe avant le REER.</p></div></div>
       <div class="order-step"><div class="order-step-num" style="background:linear-gradient(135deg,#2563eb,#3b82f6);">3</div><div class="order-step-content"><h3>REER — Selon votre taux marginal</h3><p>Très avantageux si taux marginal <strong>40 %+</strong>. Planifiez votre retrait à la retraite.</p></div></div>
-      <div class="order-step"><div class="order-step-num" style="background:linear-gradient(135deg,#d97706,#f59e0b);">4</div><div class="order-step-content"><h3>REEE — Si vous avez des enfants</h3><p>30 % sur les 2 500 $ annuels. Même si le CELI n'est pas plein, ça vaut la peine.</p></div></div>
-      <div class="order-step"><div class="order-step-num" style="background:linear-gradient(135deg,#475569,#64748b);">5</div><div class="order-step-content"><h3>Non enregistré — En dernier</h3><p>Quand tout le reste est maximisé, ou pour fonctionnalités avancées.</p></div></div>
+      <div class="order-step"><div class="order-step-num" style="background:linear-gradient(135deg,#475569,#64748b);">4</div><div class="order-step-content"><h3>Non enregistré — En dernier</h3><p>Quand tout le reste est maximisé, ou pour fonctionnalités avancées.</p></div></div>
     </div>
     <div class="principle reveal"><div class="label">⚡ Hauts revenus (100 000 $+)</div><p>Le REER passe souvent en #2. Un dollar cotisé à 50 % de taux marginal vous coûte seulement 50 cents. Mais cet argent sera imposé au retrait.</p></div>
-    <!-- Comparateur -->
     <div class="comp-box reveal">
       <div class="calc-title">🎯 Quel compte pour votre profil?</div>
       <div class="calc-subtitle" style="font-size:13px;color:var(--text2);margin-bottom:18px;">Répondez à 3 questions pour obtenir une recommandation personnalisée.</div>
@@ -545,22 +474,22 @@ a.toc-item:hover{border-color:rgba(59,130,246,.4);box-shadow:0 6px 20px rgba(59,
         <select id="cSit"><option value="">— Choisir —</option><option value="loc">Locataire, envisage d'acheter</option><option value="prop">Déjà propriétaire</option><option value="ret">À la retraite / proche retraite</option></select>
       </div>
       <div class="comp-q">
-        <label>Avez-vous des enfants?</label>
-        <select id="cEnf"><option value="">— Choisir —</option><option value="oui">Oui</option><option value="non">Non</option></select>
+        <label>Priorité principale :</label>
+        <select id="cPrio"><option value="">— Choisir —</option><option value="flex">Flexibilité maximale</option><option value="impot">Réduire mes impôts maintenant</option><option value="retraite">Préparer ma retraite</option></select>
       </div>
       <div class="comp-result" id="compResult"></div>
     </div>
     <h3 class="reveal" style="font-size:16px;font-weight:700;margin:32px 0 16px;">Tableau comparatif</h3>
     <div class="tbl-wrap reveal">
       <table>
-        <thead><tr><th>Caractéristique</th><th>CELI</th><th>REER</th><th>CELIAPP</th><th>REEE</th></tr></thead>
+        <thead><tr><th>Caractéristique</th><th>CELI</th><th>REER</th><th>CELIAPP</th><th>Non enr.</th></tr></thead>
         <tbody>
           <tr><td><strong>Déduction à l'entrée</strong></td><td class="badge-lose">Non</td><td class="badge-win">Oui</td><td class="badge-win">Oui</td><td class="badge-lose">Non</td></tr>
-          <tr><td><strong>Impôt au retrait</strong></td><td class="badge-win">Aucun</td><td class="badge-warn">Oui (revenu)</td><td class="badge-win">Aucun*</td><td class="badge-warn">Enfant*</td></tr>
-          <tr><td><strong>Plafond annuel</strong></td><td>7 000 $</td><td>18 % / 32K$</td><td>8 000 $</td><td>—</td></tr>
-          <tr><td><strong>Subventions gov.</strong></td><td class="badge-lose">Non</td><td class="badge-lose">Non</td><td class="badge-lose">Non</td><td class="badge-win">30 % !</td></tr>
-          <tr><td><strong>Flexibilité retrait</strong></td><td class="badge-win">Totale</td><td class="badge-warn">Pénalisé</td><td class="badge-warn">Maison</td><td class="badge-warn">Études</td></tr>
-          <tr><td><strong>Notre verdict</strong></td><td class="badge-ess">ESSENTIEL</td><td class="badge-warn">SELON REV.</td><td class="badge-win">SI ADMISS.</td><td class="badge-win">SI ENFANTS</td></tr>
+          <tr><td><strong>Impôt au retrait</strong></td><td class="badge-win">Aucun</td><td class="badge-warn">Oui (revenu)</td><td class="badge-win">Aucun*</td><td class="badge-warn">Gains cap.</td></tr>
+          <tr><td><strong>Plafond annuel</strong></td><td>7 000 $</td><td>18 % / 32K$</td><td>8 000 $</td><td>Aucun</td></tr>
+          <tr><td><strong>Flexibilité retrait</strong></td><td class="badge-win">Totale</td><td class="badge-warn">Pénalisé</td><td class="badge-warn">Maison seul.</td><td class="badge-win">Totale</td></tr>
+          <tr><td><strong>Pertes déductibles</strong></td><td class="badge-lose">Non</td><td class="badge-lose">Non</td><td class="badge-lose">Non</td><td class="badge-win">Oui</td></tr>
+          <tr><td><strong>Notre verdict</strong></td><td class="badge-ess">ESSENTIEL</td><td class="badge-warn">SELON REV.</td><td class="badge-win">SI ADMISS.</td><td class="badge-warn">EN DERNIER</td></tr>
         </tbody>
       </table>
     </div>
@@ -568,10 +497,10 @@ a.toc-item:hover{border-color:rgba(59,130,246,.4);box-shadow:0 6px 20px rgba(59,
 </section>
 
 <!-- PLATEFORMES -->
-<section id="s7" class="content-section scroll-target">
+<section id="s6" class="content-section scroll-target">
   <div class="inner">
     <div class="section-header">
-      <div class="section-num reveal">07</div>
+      <div class="section-num reveal">06</div>
       <div class="section-head-text reveal">
         <div class="section-label">Où ouvrir vos comptes</div>
         <h2>Les plateformes</h2>
@@ -608,20 +537,14 @@ a.toc-item:hover{border-color:rgba(59,130,246,.4);box-shadow:0 6px 20px rgba(59,
     <div class="section-label reveal">🎮 Interactif</div>
     <h2 class="reveal" style="font-family:'Playfair Display',serif;font-size:clamp(24px,5vw,36px);font-weight:800;margin-bottom:8px;">Testez vos connaissances</h2>
     <p class="reveal" style="color:var(--text2);margin-bottom:32px;font-size:13px;">Trois activités pour consolider ce que vous venez d'apprendre.</p>
-
-    <!-- Quiz -->
     <div class="quiz-box reveal">
       <div class="quiz-title">🧠 Quiz — Comptes d'investissement</div>
       <div class="quiz-progress" id="qProg"></div>
       <div id="qBody"></div>
     </div>
-
-    <!-- Flip cards -->
     <h3 class="reveal" style="font-size:15px;font-weight:700;color:var(--text);margin:40px 0 6px;">🃏 Cartes-mémoire</h3>
     <p class="reveal" style="font-size:12px;color:var(--muted);margin-bottom:16px;">Tapez sur une carte pour voir la définition</p>
     <div class="flip-grid reveal" id="flipGrid"></div>
-
-    <!-- Simulateur -->
     <h3 class="reveal" style="font-size:15px;font-weight:700;color:var(--text);margin:40px 0 6px;">⚖️ Simulateur — CELI vs Compte non enregistré</h3>
     <p class="reveal" style="font-size:12px;color:var(--muted);margin-bottom:16px;">Comparez l'impact fiscal sur le long terme</p>
     <div class="calc-box reveal">
@@ -657,29 +580,22 @@ a.toc-item:hover{border-color:rgba(59,130,246,.4);box-shadow:0 6px 20px rgba(59,
 
 <footer class="footer">
   <div class="footer-logo">PasseGo</div>
-  <p>Boîte à outils de l'investisseur · 21 février 2026</p>
+  <p>Boîte à outils de l'investisseur · Vol. 1 · 21 février 2026</p>
   <div class="disclaimer">⚠️ Ce document est à des fins éducatives uniquement. Ce n'est pas du conseil financier. Consultez un professionnel qualifié. Plafonds sujets à changement — vérifiez sur canada.ca.</div>
 </footer>
 
 <script>
-// progress
 document.getElementById('progress').style.width = '0%';
 window.addEventListener('scroll', function() {
   var pct = window.scrollY / (document.body.scrollHeight - window.innerHeight) * 100;
   document.getElementById('progress').style.width = pct + '%';
 });
-
-// mobile menu
 document.getElementById('menuBtn').addEventListener('click', function() {
   document.getElementById('mobileMenu').classList.toggle('open');
 });
 document.querySelectorAll('#mobileMenu a').forEach(function(a) {
-  a.addEventListener('click', function() {
-    document.getElementById('mobileMenu').classList.remove('open');
-  });
+  a.addEventListener('click', function() { document.getElementById('mobileMenu').classList.remove('open'); });
 });
-
-// reveal
 var revealObs = new IntersectionObserver(function(entries) {
   entries.forEach(function(e) {
     if (e.isIntersecting) { e.target.classList.add('visible'); revealObs.unobserve(e.target); }
@@ -687,13 +603,11 @@ var revealObs = new IntersectionObserver(function(entries) {
 }, { threshold: 0.08 });
 document.querySelectorAll('.reveal, .stagger').forEach(function(el) { revealObs.observe(el); });
 
-// format money
 function fmt(n) {
   if (n >= 1000000) return (n / 1000000).toFixed(2).replace(/\.?0+$/, '') + ' M$';
   return Math.round(n).toLocaleString('fr-CA') + ' $';
 }
 
-// CELI calc
 function runCELI() {
   var c = parseFloat(document.getElementById('celiCont').value);
   var r = parseFloat(document.getElementById('celiRate').value) / 100;
@@ -712,23 +626,6 @@ document.getElementById('celiCont').addEventListener('input', runCELI);
 document.getElementById('celiRate').addEventListener('input', runCELI);
 runCELI();
 
-// REEE calc
-function runREEE() {
-  var c = parseFloat(document.getElementById('reeeConts').value);
-  var y = parseInt(document.getElementById('reeeYrs').value);
-  document.getElementById('reeeContVal').textContent = c.toLocaleString('fr-CA') + ' $';
-  document.getElementById('reeeYrsVal').textContent = y;
-  var subv = Math.min(c, 2500) * 0.3;
-  var v = 0;
-  for (var i = 0; i < y; i++) v = (v + c + subv) * 1.06;
-  document.getElementById('reeeTotal').textContent = fmt(v);
-  document.getElementById('reeeSubv').textContent = fmt(subv * y);
-}
-document.getElementById('reeeConts').addEventListener('input', runREEE);
-document.getElementById('reeeYrs').addEventListener('input', runREEE);
-runREEE();
-
-// Simulator
 function runSim() {
   var init = parseFloat(document.getElementById('simInit').value);
   var r    = parseFloat(document.getElementById('simRate').value) / 100;
@@ -740,10 +637,7 @@ function runSim() {
   document.getElementById('simTaxVal').textContent     = document.getElementById('simTax').value + ' %';
   var celi = init * Math.pow(1 + r, yrs);
   var nr = init;
-  for (var i = 0; i < yrs; i++) {
-    var g = nr * r;
-    nr = nr + g - g * 0.5 * tax;
-  }
+  for (var i = 0; i < yrs; i++) { var g = nr * r; nr = nr + g - g * 0.5 * tax; }
   document.getElementById('simCELI').textContent   = fmt(celi);
   document.getElementById('simNonReg').textContent = fmt(nr);
   document.getElementById('simDiff').textContent   = '+' + fmt(celi - nr);
@@ -754,32 +648,27 @@ document.getElementById('simHorizon').addEventListener('input', runSim);
 document.getElementById('simTax').addEventListener('input', runSim);
 runSim();
 
-// Comparateur
 function runComp() {
-  var rev = document.getElementById('cRev').value;
-  var sit = document.getElementById('cSit').value;
-  var enf = document.getElementById('cEnf').value;
-  if (!rev || !sit || !enf) return;
+  var rev  = document.getElementById('cRev').value;
+  var sit  = document.getElementById('cSit').value;
+  var prio = document.getElementById('cPrio').value;
+  if (!rev || !sit || !prio) return;
   var titre, desc, couleur, ordre;
   if (sit === 'loc') {
     titre = '🏡 Priorité : CELIAPP'; couleur = '#7c3aed';
     desc = "Vous êtes admissible au CELIAPP — double cadeau fiscal. Commencez ici, puis CELI, puis REER si votre revenu le justifie.";
-    if (rev === 'low') ordre = [['CELIAPP','#7c3aed'],['CELI','#059669']];
+    if (rev === 'low')       ordre = [['CELIAPP','#7c3aed'],['CELI','#059669'],['REER','#2563eb']];
     else if (rev === 'high') ordre = [['CELIAPP','#7c3aed'],['REER','#2563eb'],['CELI','#059669']];
-    else ordre = [['CELIAPP','#7c3aed'],['CELI','#059669'],['REER','#2563eb']];
+    else                     ordre = [['CELIAPP','#7c3aed'],['CELI','#059669'],['REER','#2563eb']];
   } else if (sit === 'prop') {
-    if (rev === 'high') { titre = '💰 Priorité : REER'; couleur = '#2563eb'; desc = "Avec un revenu élevé, le REER est très avantageux. Chaque dollar cotisé à 50% de taux marginal vous coûte seulement 50 cents."; ordre = [['REER','#2563eb'],['CELI','#059669']]; }
+    if (rev === 'high') { titre = '💰 Priorité : REER'; couleur = '#2563eb'; desc = "Avec un revenu élevé, le REER est très avantageux. Chaque dollar cotisé à 50 % de taux marginal vous coûte seulement 50 cents."; ordre = [['REER','#2563eb'],['CELI','#059669']]; }
     else { titre = '💚 Priorité : CELI'; couleur = '#059669'; desc = "Déjà propriétaire, pas de CELIAPP. Concentrez-vous sur le CELI — libre d'impôt, flexible, idéal pour votre profil."; ordre = [['CELI','#059669'],['REER','#2563eb']]; }
   } else {
     titre = '📊 Priorité : Planification REER'; couleur = '#2563eb';
     desc = "À la retraite, l'enjeu est de gérer les retraits du REER pour minimiser les impôts. Le CELI reste essentiel — retraits libres d'impôt à vie.";
     ordre = [['CELI','#059669'],['REER','#2563eb']];
   }
-  if (enf === 'oui') {
-    var hasREEE = false;
-    for (var i = 0; i < ordre.length; i++) { if (ordre[i][0] === 'REEE') { hasREEE = true; break; } }
-    if (!hasREEE) ordre.push(['REEE','#d97706']);
-  }
+  if (prio === 'flex' && ordre[0][0] !== 'CELI') ordre.unshift(['CELI','#059669']);
   var pills = '';
   for (var j = 0; j < ordre.length; j++) {
     pills += '<span class="comp-pill" style="background:' + ordre[j][1] + '18;border-color:' + ordre[j][1] + '44;color:' + ordre[j][1] + ';">' + (j+1) + '. ' + ordre[j][0] + '</span>';
@@ -792,17 +681,16 @@ function runComp() {
 }
 document.getElementById('cRev').addEventListener('change', runComp);
 document.getElementById('cSit').addEventListener('change', runComp);
-document.getElementById('cEnf').addEventListener('change', runComp);
+document.getElementById('cPrio').addEventListener('change', runComp);
 
-// Quiz
 var QS = [
   {q:"Vous cotisez 5 000 $ à votre CELI. Votre portefeuille croît à 6 000 $. Vous retirez tout. Combien payez-vous d'impôt?", opts:["600 $ (10 %)","0 $ — aucun impôt","300 $ (5 %)","1 200 $ (20 %)"], ans:1, exp:"Le CELI est 100 % libre d'impôt. Gains, dividendes et intérêts ne sont jamais imposés, même au retrait."},
   {q:"Vous gagnez 48 000 $/an. Quel compte privilégier — CELI ou REER?", opts:["REER — pour la déduction","CELI — votre taux marginal est trop bas pour optimiser le REER","Les deux sont identiques","Ni l'un ni l'autre"], ans:1, exp:"À 48 000 $, votre taux marginal est ~37 %. Le CELI est préférable : retraits libres d'impôt et vous ne bénéficiez pas autant de la déduction REER."},
   {q:"Vous ouvrez un CELIAPP et cotisez 8 000 $. Dans 12 ans vous achetez votre première maison. Impôt sur les gains?", opts:["Oui, comme un compte normal","Non — aucun impôt","Oui, 50 % des gains","Seulement si gains > 10 000 $"], ans:1, exp:"Le CELIAPP combine déduction à l'entrée (REER) ET exonération à la sortie (CELI). Double avantage fiscal pour l'achat d'une première propriété."},
-  {q:"Un parent cotise 2 500 $ au REEE. Quelle subvention annuelle (fédéral + Québec)?", opts:["250 $","500 $","750 $","1 000 $"], ans:2, exp:"Fédéral 20 % = 500 $ (SCEE) + Québec 10 % = 250 $ (IQEE) = 750 $ de subventions gratuites chaque année."},
-  {q:"Vous retirez 15 000 $ de votre CELI en juin 2025. Quand récupérez-vous les droits?", opts:["Immédiatement","1er janvier 2026","Dans 30 jours","Vous les perdez"], ans:1, exp:"Les droits de cotisation CELI sont récupérés le 1er janvier de l'année SUIVANTE. Pénalité de 1 % par mois si vous dépassez votre plafond."},
-  {q:"Quel compte permet l'effet de levier et la déductibilité des pertes?", opts:["CELI","REER","CELIAPP","Compte non enregistré"], ans:3, exp:"Seul le compte non enregistré offre l'accès à la marge et la déductibilité des pertes en capital."},
-  {q:"Pour les revenus de 100 000 $+, quel ordre est recommandé?", opts:["CELI → REER → CELIAPP","CELIAPP → REER → CELI","CELIAPP → CELI → REER","REER → CELI → CELIAPP"], ans:1, exp:"Le CELIAPP reste prioritaire (double avantage). Ensuite le REER est très avantageux à 50 % de taux marginal, puis le CELI."}
+  {q:"Vous retirez 15 000 $ de votre CELI en juin 2025. Quand récupérez-vous les droits de cotisation?", opts:["Immédiatement","1er janvier 2026","Dans 30 jours","Vous les perdez"], ans:1, exp:"Les droits de cotisation CELI sont récupérés le 1er janvier de l'année SUIVANTE. Pénalité de 1 % par mois si vous dépassez votre plafond."},
+  {q:"Quel compte permet l'effet de levier et la déductibilité des pertes en capital?", opts:["CELI","REER","CELIAPP","Compte non enregistré"], ans:3, exp:"Seul le compte non enregistré offre l'accès à la marge et la déductibilité des pertes en capital."},
+  {q:"Le REER est particulièrement avantageux quand votre taux marginal est :", opts:["Inférieur à 30 %","Entre 30 % et 38 %","Supérieur à 40 %","Peu importe le taux"], ans:2, exp:"Plus votre taux marginal est élevé, plus la déduction REER vous fait économiser maintenant. À 50 %, un dépôt de 10 000 $ ne vous coûte réellement que 5 000 $."},
+  {q:"Pour un locataire qui veut acheter sa première maison, quel est le premier compte à ouvrir?", opts:["CELI","REER","CELIAPP","Compte non enregistré"], ans:2, exp:"Le CELIAPP est prioritaire : il offre une déduction à l'entrée ET une exonération à la sortie pour l'achat d'une première propriété. C'est mathématiquement imbattable si vous êtes admissible."}
 ];
 var qi = 0, qs = 0, qan = false;
 function qProg() {
@@ -812,8 +700,7 @@ function qProg() {
 }
 function qRender() {
   if (qi >= QS.length) { qScore(); return; }
-  qan = false;
-  qProg();
+  qan = false; qProg();
   var q = QS[qi];
   var opts = '';
   for (var i = 0; i < q.opts.length; i++) opts += '<button class="quiz-opt" data-i="' + i + '">' + q.opts[i] + '</button>';
@@ -860,14 +747,13 @@ function qScore() {
 }
 qRender();
 
-// Flip cards
 var FC = [
   {e:'💚',t:'CELI',d:"Cotisation après impôt. Gains 100 % libres d'impôt. Retraits sans pénalité. Plafond 7 000 $/an."},
   {e:'💰',t:'REER',d:"Cotisation avant impôt. Report d'impôt jusqu'à la retraite. Imposé au retrait comme revenu."},
   {e:'🏡',t:'CELIAPP',d:"Double avantage : déduction à l'entrée + aucun impôt à la sortie. Pour acheter sa 1re maison."},
-  {e:'🎓',t:'REEE',d:"30 % de subvention sur 2 500 $/an. Fédéral (20 %) + Québec (10 %). Pour les études des enfants."},
   {e:'💼',t:'Non enregistré',d:"Aucun plafond. Gains imposables. Pertes déductibles. Accès marge et options."},
-  {e:'📊',t:'Taux marginal',d:"Taux d'imposition sur le prochain dollar gagné. Clé pour décider CELI vs REER."}
+  {e:'📊',t:'Taux marginal',d:"Taux d'imposition sur le prochain dollar gagné. Clé pour décider CELI vs REER."},
+  {e:'🔄',t:'RAP',d:"Régime d'accession à la propriété. Retirez jusqu'à 60 000 $ du REER pour votre 1re maison."}
 ];
 var fg = document.getElementById('flipGrid');
 FC.forEach(function(c) {
